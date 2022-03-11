@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/stunning-portfolio/static/css/main.c93f1864.css",
+    "main.js": "/stunning-portfolio/static/js/main.c1dfdf62.js",
+    "static/media/cl2.jpg": "/stunning-portfolio/static/media/cl2.3398faca0bb4153d3b5d.jpg",
+    "static/media/cl3.jpg": "/stunning-portfolio/static/media/cl3.14dd35b9afbf521e36e8.jpg",
+    "static/media/cv.pdf": "/stunning-portfolio/static/media/cv.3983f690cdacd5dcfe71.pdf",
+    "static/media/cl4.jpg": "/stunning-portfolio/static/media/cl4.0cc0f68c18c3b5fd488f.jpg",
+    "static/media/mypic.jpeg": "/stunning-portfolio/static/media/mypic.22ab5159ebe0cf8ddbed.jpeg",
+    "static/media/cl1.jpg": "/stunning-portfolio/static/media/cl1.f0c90c7ccc0d72645305.jpg",
+    "static/media/p2.webp": "/stunning-portfolio/static/media/p2.3effb3658a23dddba9ea.webp",
+    "static/media/p4.webp": "/stunning-portfolio/static/media/p4.da2c5428a9c289d9afab.webp",
+    "static/media/p1.webp": "/stunning-portfolio/static/media/p1.6814d186933226b7ba65.webp",
+    "static/media/bard.jpg": "/stunning-portfolio/static/media/bard.efa2bbf435493424f145.jpg",
+    "static/media/p6.webp": "/stunning-portfolio/static/media/p6.7608b86d06cef00c3fa9.webp",
+    "static/media/p3.webp": "/stunning-portfolio/static/media/p3.9acef00fd6919446ca9e.webp",
+    "static/media/p5.webp": "/stunning-portfolio/static/media/p5.f8ed53f5ac5914b4e3f2.webp",
+    "index.html": "/stunning-portfolio/index.html",
+    "main.c93f1864.css.map": "/stunning-portfolio/static/css/main.c93f1864.css.map",
+    "main.c1dfdf62.js.map": "/stunning-portfolio/static/js/main.c1dfdf62.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c93f1864.css",
+    "static/js/main.c1dfdf62.js"
+  ]
+}
