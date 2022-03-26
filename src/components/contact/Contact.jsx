@@ -9,14 +9,18 @@ import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+const KEY = process.env.REACT_APP_SERVICE_KEY;
+const TEMP = process.env.REACT_APP_TEMPLATE_KEY;
+const API = process.env.REACT_APP_API_KEY;
 
 const Contact = () => {
   const form = useRef();
+  console.log('key', API);
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_r8cgew2', 'template_lm8che8', form.current, 'Y2FBZjm3hmMM3mkHc')
+    emailjs.sendForm(KEY, TEMP, form.current, API)
       .then((result) => {
           toast.success('SuccessFully Sent Mail '+result.text, {
             position: "top-center", autoClose: 2000,});
@@ -59,8 +63,8 @@ const Contact = () => {
               <input type="email" name="email" placeholder="Your Email" required />
               <textarea name="message" placeholder="Your Querries" rows="7"></textarea>
               <button type="submit" className="btn btn-primary">Send Message</button>
-              <p>The email may not work as I had removed the key. You may signup at EmailJs</p>
-              <p>Environment {process.env.NODE_ENV}</p>
+              <p>EmailJs mail service, I will reply you back once I receive email from you</p>
+              <p>Environment: {process.env.NODE_ENV}</p>
             </form>
         </div>
         <ToastContainer/>

@@ -5,18 +5,17 @@ import { Header, Nav, Contact, About, Experience,Footer, Services, Testimonials,
 
 function App() {
   return (
-   <>
-   <Header/>
-   <Nav/>
-   <About/>
-   <Experience/>
-   <Services/>
-   <Portfolio/>
-   <Testimonials/>
-   <Contact/>
-   <Footer/> 
-
-   </>
+  <>
+      <Header/>
+      <Nav/>
+      <About/>
+      <Experience/>
+      <Services/>
+      <Portfolio/>
+      <Testimonials/>
+      <Contact/>
+      <Footer/> 
+    </>
   );
 }
 
