@@ -31,25 +31,46 @@ const Nav = () => {
   
   // if(window.scrollY >)
   if(pathname === undefined){
-    const showActive =  () =>{
-      if(window.scrollY >=500 && window.scrollY <=900){
-        setActiveNav('#about');
-      }else if(window.scrollY >=901 && window.scrollY <=1400){
-        setActiveNav('#experience');
-      }else if(window.scrollY >=1401 && window.scrollY <=2000){
-        setActiveNav('#services');
-      }else if(window.scrollY >=2001 && window.scrollY <=3100){
-        setActiveNav('#portfolio');
-      }else if(window.scrollY >=3101 && window.scrollY <=3900){
-        setActiveNav('#testimonials');
-      }else if(window.scrollY >=3901 && window.scrollY <=4800){
-        setActiveNav('#contact');
-      } else{
-        setActiveNav('#');
-      }
-    }
+    if(window.screen.width <= 500){
+      const showActive =  () =>{
+        if(window.scrollY >=500 && window.scrollY <=1000){
+          setActiveNav('#about');
+        }else if(window.scrollY >=1001 && window.scrollY <=1800){
+          setActiveNav('#experience');
+        }else if(window.scrollY >=1801 && window.scrollY <=3700){
+          setActiveNav('#services');
+        }else if(window.scrollY >=3701 && window.scrollY <=6400){
+          setActiveNav('#portfolio');
+        }else if(window.scrollY >=6401 && window.scrollY <=7200){
+          setActiveNav('#testimonials');
+        }else if(window.scrollY >=7201){
+          setActiveNav('#contact');
+        } else{
+          setActiveNav('#');
+        }
 
-    window.addEventListener('scroll', showActive);
+      }
+      window.addEventListener('scroll', showActive);
+    }else{
+      const showActive =  () =>{
+        if(window.scrollY >=500 && window.scrollY <=900){
+          setActiveNav('#about');
+        }else if(window.scrollY >=901 && window.scrollY <=1400){
+          setActiveNav('#experience');
+        }else if(window.scrollY >=1401 && window.scrollY <=2000){
+          setActiveNav('#services');
+        }else if(window.scrollY >=2001 && window.scrollY <=3100){
+          setActiveNav('#portfolio');
+        }else if(window.scrollY >=3101 && window.scrollY <=3900){
+          setActiveNav('#testimonials');
+        }else if(window.scrollY >=3901 && window.scrollY <=4800){
+          setActiveNav('#contact');
+        } else{
+          setActiveNav('#');
+        }
+      }
+      window.addEventListener('scroll', showActive);
+    }
   }
   
 
