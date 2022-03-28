@@ -15,7 +15,7 @@ const API = process.env.REACT_APP_API_KEY;
 
 const Contact = () => {
   const form = useRef();
-  console.log('key', API);
+  // console.log('key', API);
 
   const sendEmail = (e) => {
     e.preventDefault();
